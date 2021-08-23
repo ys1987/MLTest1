@@ -10,6 +10,7 @@ namespace View
 {
     public class ViewModel
     {
+
         public PlotModel Model { get; } = new PlotModel();
         public PlotController Controller { get; } = new PlotController();
 
